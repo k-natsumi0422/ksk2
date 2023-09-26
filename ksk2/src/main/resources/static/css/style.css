@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+p,
+form,
+input {
+	margin: 0;
+}
+
+body {
+	background: lightgray;
+	margin: 0;
+}
+
+.header {
+	height: 40px;
+	/* 横幅を100% */
+	width: 100%;
+	background-color: gray;
+	text-align: right;
+	font-weight: bolder;
+	padding: 20px;
+}
+
+#form {
+	/*　横幅を400px　*/
+	width: 400px;
+	/*　外側に余白を上下に100px,左右に自動調整　*/
+	margin: 100px auto;
+	/*　内側の余白を20px　*/
+	padding: 20px;
+}
+
+form p {
+	/*　フォントサイズを14px　*/
+	font-size: 14px;
+	/*　フォントを太字　*/
+	font-weight: bold;
+}
+
+.form-title {
+	/*　要素を中央揃え　*/
+	text-align: center;
+	/*　フォントサイズを20px　*/
+	font-size: 20px;
+	/*　フォントを太字　*/
+	font-weight: bold;
+}
+
+.system {
+	/*　子要素を横並び　*/
+	display: flex;
+	/*　横幅を450px　*/
+	width: 450px;
+	/*　要素を均等に配置　*/
+	justify-content: space-between;
+	/*　外側の余白を上下に40px、左右に自動調整　*/
+	margin: 40px auto;
+}
+
+.mail,
+.pass {
+	/*　外側の余白を下に20px　*/
+	margin-bottom: 20px;
+}
+
+input[type="name"],
+input[type="password"] {
+	/*　横幅を300px　*/
+	width: 300px;
+	/* 内側の余白を4px */
+	padding: 4px;
+	/*　フォントサイズを14px　*/
+	font-size: 14px;
+}
+
+/*　ボタンのデザイン　*/
+.button a {
+	/*　背景のカラーを白色　*/
+	background: #85adde;
+	/*　横幅を120px　*/
+	width: 120px;
+	/*　縦幅を40px　*/
+	height: 40px;
+	/*　子要素を横並び　*/
+	display: flex;
+	/*　要素を均等に配置　*/
+	justify-content: space-around;
+	/*　要素を中央に配置　*/
+	align-items: center;
+	/*　外側の余白を自動調整　*/
+	margin: auto;
+	/*　文字を黒色　*/
+	color: black;
+	font-size: 18px;
+	/*　下線を消す　*/
+	text-decoration: none;
+	/* 　枠線を1px、実線、カラー#00aaff　 */
+	border: 1px solid #85adde;
+}
+
+/*　ボタン　ホバー時　*/
+.button a:hover {
+	/*　背景を#00aaff　*/
+	background: #4388de;
+	/*　文字色白色　*/
+	color: black;
+}
+
+.button a:after {
+	/*　横幅を5px　*/
+	width: 5px;
+	/* 縦幅を5px */
+	height: 5px;
+	/* 要素の配置方法を指定 */
+	position: absolute;
+	/* 上から50%の余白 */
+	top: 50%;
+	/*　右から20pxの余白　*/
+	right: 20px;
+	/*　枠線の角を1px丸くする　*/
+	border-radius: 1px;
+}
+
+.button a:hover:after {
+	/*　枠線の色を白色　*/
+	border-color: white;
+}
+
+.output {
+	/*　横幅を190px　*/
+	width: 190px;
+	/*　左の余白を30%　*/
+	margin-left: 30%;
+	/*　上の余白を30px　*/
+	margin-top: 30px;
+}
+
+.new_member_str {
+	/*　要素を中央揃え　*/
+	text-align: center;
+	/*　フォントサイズを20px　*/
+	font-size: 20px;
+	/* 上から10%空白 */
+	margin-top: 10%;
+}
+
+.new_member_str a {
+	color: #4388de;
+	text-decoration: none;
+}
