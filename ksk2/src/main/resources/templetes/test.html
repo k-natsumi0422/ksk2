@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../static/css/style.css">
+	<title>ログイン画面</title>
+</head>
+
+<body>
+
+	<div class="header">
+		<a>JaveTeamDevelopment</a>
+	</div>
+
+	<div id="form">
+
+		<!--　タイトルの作成　-->
+		<p class="form-title">ログイン</p>
+		<form name="post">
+			<!--　エラー時に表示するテキスト欄　-->
+			<p id="output" class="output"></p>
+			<!--　テキストボックスのタイトルを作成　-->
+			<div class="system">
+				<p>UserID</p>
+				<input type="name" id="name" />
+			</div>
+			<!--　テキストボックスのタイトルを作成　-->
+			<div class="system">
+				<p>PassWord</p>
+				<input type="password" id="pass" />
+			</div>
+			<!--　ログインボタンの作成　-->
+			<div class="button" id="btn">
+				<a href="#">登録</a>
+			</div>
+			<div class="new_member_str">
+				<a href="#">新規会員登録はこちら</a>
+		</form>
+	</div>
+
+</body>
+
+</html>
