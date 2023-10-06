@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.text{
+	display: flex;
+	/*　横幅を460px　*/
+	width: 460px;
+	/*　要素を均等に配置　*/
+	justify-content: space-between;
+	/*　外側の余白を上下に40px、左右に自動調整　*/
+	margin: 40px auto;
+}
+
+.required {
+	display: flex;
+	font-weight: bolder;
+}
+
+
+
+.required::after {
+content: "必須";
+color: white;
+background: red;
+font-size: 0.6em;
+padding: 0.4em;
+border-radius: 0.5em;
+margin-left:0.3em;
+}

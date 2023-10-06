@@ -41,7 +41,7 @@ form p {
 	/*　要素を中央揃え　*/
 	text-align: center;
 	/*　フォントサイズを20px　*/
-	font-size: 20px;
+	font-size: 1.5rem;
 	/*　フォントを太字　*/
 	font-weight: bold;
 }
@@ -63,8 +63,9 @@ form p {
 	margin-bottom: 20px;
 }
 
-input[type="name"],
-input[type="password"] {
+input[type="userId"],
+input[type="password"],
+input[type="mailAddress"] {
 	/*　横幅を300px　*/
 	width: 300px;
 	/* 内側の余白を4px */

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.system {
+	width: 550px;
+	padding-top: 2.3rem;
+	display: flex;
+	flex-flow: column;
+}
+
+
+.button a {
+	width: 10rem;
+	font-weight: bold;
+	font-size: small;
+}
+
+
+.top_container {
+	width: 50rem;
+	height: 30rem;
+	margin-left: 25%;
+	background: white;
+}
+
+
+.top-sub-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+.top-main {
+	display: flex;
+	justify-content: space-around;
+	width: 460px;
+}
+
+
+.top-comment{
+	text-align: center;
+	padding-top: 1.5rem;
+}

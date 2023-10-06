@@ -4,7 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../static/css/style.css">
-	<title>ログイン画面</title>
+	<link rel="stylesheet" href="../static/css/new_member.css">
+	<title>新規画面登録</title>
 </head>
 
 <body>
@@ -16,26 +17,35 @@
 	<div id="form">
 
 		<!--　タイトルの作成　-->
-		<p class="form-title">ログイン</p>
+		<p class="form-title">新規会員登録</p>
 		<form name="post">
 			<!--　エラー時に表示するテキスト欄　-->
 			<p id="output" class="output"></p>
+
 			<!--　テキストボックスのタイトルを作成　-->
-			<div class="system">
-				<p>UserID</p>
+			<div class="text">
+				<span class="required">UserID</span>
 				<input type="userId" id="userId" />
 			</div>
+
 			<!--　テキストボックスのタイトルを作成　-->
-			<div class="system">
-				<p>PassWord</p>
+			<div class="text">
+				<span class="required">MailAddress</span>
+				<input type="mailAddress" id="mail" />
+			</div>
+
+			<!--　テキストボックスのタイトルを作成　-->
+			<div class="text">
+				<span class="required">PassWord</span>
 				<input type="password" id="pass" />
 			</div>
+
 			<!--　ログインボタンの作成　-->
 			<div class="button" id="btn">
 				<a href="#">登録</a>
 			</div>
 			<div class="new_member_str">
-				<a href="new_member.html">新規会員登録はこちら</a>
+				<a href="login.html">ログイン画面へ</a>
 		</form>
 	</div>
 
